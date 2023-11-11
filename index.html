@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&family=Ephesis&family=Send+Flowers&family=Style+Script&display=swap');
+/*https://cdn.dribbble.com/users/108/screenshots/5880373/attachments/1265363/process-01.jpg*/
+        * {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+            background-color: rgb(219, 206, 230)
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            height: 14vh;
+            /*background-color: bisque;*/
+            align-items: center;
+        }
+
+        .navigation a {
+            padding: 10px;
+            font-size: 13px;
+            text-decoration: none;
+            color: black;
+            font-weight: 200;
+        }
+
+        .navigation a:hover {
+            box-shadow: rgb(232, 230, 243) 0px -50px 36px -28px inset;
+            border-radius: 24px;
+        }
+
+        .navigation {
+            margin-right: 60px;
+        }
+
+        .logo h3 {
+            text-transform: uppercase;
+            margin-left: 60px;
+            font-weight: 100;
+        }
+
+        h3 span {
+            font-weight: 1000;
+        }
+
+        .matter {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            /*background-color: aquamarine;*/
+            /*padding: 50px;*/
+            margin-top: 50px;
+            margin-right: 50px;
+            margin-left: 50px;
+            margin-bottom: 50px;
+        }
+
+        .matter h3 {
+            font-weight: 500;
+            font-size: 50px;
+            margin-bottom: 25px;
+            font-family: 'Regular 400 Italic';
+        }
+
+        .matter p {
+            margin-right: 20vw;
+            margin-left: 20vw;
+            text-align: center;
+            font-weight: 100;
+        }
+
+        .matter button {
+            margin-top: 25px;
+            background-color: black;
+            color: white;
+            border-radius: 19px;
+            padding: 5px 16px;
+            border: none;
+        }
+
+        .matter button:hover {
+            background-color: rgb(46, 43, 43);
+            box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+        }
+
+        .image img {
+            width: 100%;
+            border-radius: 490px;
+            height: 530px;
+        }
+
+        .details {
+            width: 100%;
+            display: flex;
+            margin-top: 5px;
+            justify-content: space-between;
+            padding: 6vw 90px;
+        }
+
+        .details .left {
+            width: 47%;
+            border-right: 2px solid black;
+            padding-right: 60px;
+            text-align: right;
+            display: flex;
+            align-items: left;
+            flex-direction: column;
+            margin-top: 10px;
+
+        }
+
+        .details .left h3 {
+            font-family: 'Regular 400 Italic';
+            font-size: 40px;
+            font-weight: 500;
+        }
+
+        .details .left .tex p {
+            margin-top: 17px;
+            margin-left: 50px;
+            align-items: center;
+
+        }
+
+        .details .right {
+            width: 47%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .details .right h3 {
+            font-family: 'Regular 400 Italic';
+            font-size: 25px;
+            font-weight: 500;
+            display: inline-block;
+            display: flex;
+        }
+
+        .details .right .icon img {
+            height: 34px;
+            width: 35px;
+            display: inline-block;
+            padding: 1px;
+            margin-top: 8px;
+        }
+
+        .details .left .tex p {
+            font-size: 18px;
+        }
+
+        .details .right p {
+            font-size: 18px;
+            border-bottom: 10px;
+            padding: 5px;
+            padding-bottom: 35px;
+        }
+
+        .details .right h3 {
+            border-bottom: 30px;
+            padding: 5px;
+        }
+
+        .details .left {
+            display: flex;
+        }
+
+        .details .right .icon {
+            display: flex;
+            gap: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="logo">
+            <h3><span>SNAP</span>SOUND</h3>
+        </div>
+        <div class="navigation">
+            <a href="Home">Home</a>
+            <a href="About">About</a>
+            <a href="Process">Process</a>
+            <a href="Portfolio">Portfolio</a>
+            <a href="Contact">Contact</a>
+        </div>
+    </div>
+    <div class="matter">
+        <h3>The storyteller.</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quisquam, esse autem sapiente omnis numquam
+            cupiditate dolorum fugiat nemo optio impedit saepe voluptatibus iure nesciunt necessitatibus minus officia
+            labore reprehenderit quod sunt.</p>
+        <button>Get in touch</button>
+    </div>
+    <div class="image">
+        <img src="mountain-4823516_1920.png" alt="image">
+    </div>
+    <div class="details">
+        <div class="left">
+            <h3>Gain the attention <br> your film deserves</h3>
+            _____
+            <div class="tex">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos architecto quiaipsa </p>
+            </div>
+
+        </div>
+        <div class="right">
+            <div class="icon">
+                <img src="https://prototechsolutions.com/wp-content/uploads/2023/06/services-icon.png"
+                    alt="customer service">
+
+                <div class="text">
+                    <h3>End to end service</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, accusantium.</p>
+                </div>
+            </div>
+            <div class="icon"><img
+                    src="https://static.vecteezy.com/system/resources/previews/001/188/477/non_2x/fire-icon-png.png"
+                    alt="passion">
+                <div class="text">
+                    <h3>Passion and energy</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, accusantium.</p>
+                </div>
+            </div>
+            <div class="icon"><img src="https://static.thenounproject.com/png/3128892-200.png" alt="">
+
+                <div class="text">
+                    <h3>Perfect match</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, accusantium.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
